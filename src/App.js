@@ -10,6 +10,7 @@ const Header = () => {
       <h1>form</h1>
       <footer>
       <h1>footer</h1>
+      
       </footer>
       
     </div>
@@ -17,4 +18,6 @@ const Header = () => {
 };
 
 
+
 export default Header;
+
