@@ -1,23 +1,13 @@
-// Header.js
-import React from "react";
+// App.js
+import React from 'react';
+import Header from './components/Header';
 
-const Header = () => {
+function App() {
   return (
-    <div> 
-      <header classname="gap-50px">
-        <h1>Header</h1>
-      </header>
-      <h1>form</h1>
-      <footer>
-      <h1>footer</h1>
-      
-      </footer>
-      
-    </div>
+    <div className = "bg-blue-700 h-[100vh]">
+<Header />
+    </div> 
   );
-};
+}
 
-
-
-export default Header;
-
+export default App;
